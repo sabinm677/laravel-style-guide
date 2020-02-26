@@ -378,7 +378,7 @@ return back()->with('message', __('app.article_added'));
 
 What | How | Good | Bad
 ------------ | ------------- | ------------- | -------------
-Controller | singular | ArticleController | ~~ArticlesController~~
+Controller | singular | ArticlesController | ~~Articles~~
 Route | plural | articles/1 | ~~article/1~~
 Named route | snake_case with dot notation | users.show_active | ~~users.show-active, show-active-users~~
 Model | singular | User | ~~Users~~
